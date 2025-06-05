@@ -1,4 +1,109 @@
 body {
-font-family: Roboto;
-background-color: #1F2937;
+    font-family: 'Roboto';
+    background-color: #f9faf8;
+    margin: 0;
+}
+.header, .hero{
+    padding: 3% 15%;
+}
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    height: 50px;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    text-decoration: none;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero{
+    background-color: #1F2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: space-between;
+
+    gap: 8%;
+}
+#text{
+    flex-direction: column;
+    width: 50%;
+}
+#img-box{
+    display: flex;
+    background-color: #6d747d;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#hero-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+#hero-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#button{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-self: baseline;
+    padding: 10px;
+    width: 100px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.whitestuff{
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    color:#1F2937;
+    margin: 3% 15%;
+}
+div.whitestuff#boxes {
+    display: flex;
+    gap: 10px;
+    padding: 0px 10%;
+}
+div.whitestuff#random h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+.illbox{
+    display: flex;
+    flex-direction: column;
+}
+.blorder{
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+    display: flex;
+    margin: 10px; 
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    color: white;
+}
+.illbox p{
+   margin: 10px; 
+   text-align: center; 
+   color: #1F2937;
 }
